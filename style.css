@@ -1,0 +1,102 @@
+body{
+        background-color: #2e284b;   
+        font-family: 'Roboto', sans-serif;   
+        color: #fff;
+        margin: 0;
+        padding: 0;
+}
+
+.container{
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #3f2b68;
+        border-radius: 10px;
+        border: 0.5px solid ;
+}
+
+h1{
+        text-align: center;
+}
+
+input{
+        width: 80%;
+        padding: 8px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+}
+
+button{
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: green;
+        font-weight: bold;
+        cursor:pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        color: #fff;
+}
+
+ul{
+        list-style-type: none;
+        padding: 0;
+}
+
+li{        
+        display: flex;
+        background-color:#7553b8;
+        padding: 10px 20px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 10px; 
+}
+
+.deleteButton{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        background-color: red;
+}
+
+.editButton{
+        margin-bottom: 5px;
+}
+
+#taskInput{
+        background-color:#2e284b;
+        border: solid 1px white;
+}
+
+#taskInput::placeholder{
+        color: white;
+}
+
+.item-list{
+        position: relative;
+        padding : 40px;
+}
+
+.item-list span
+{
+        position: absolute;
+        left: 15%;
+        font-size: 20px;
+}
+
+.item-list p{
+        position: absolute;
+        right: 15%;
+        font-size: 20px;
+}
+
+.completed,
+.completed p{
+        text-decoration: line-through;
+        color: rgb(121, 119, 119);
+}
+
